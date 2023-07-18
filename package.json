@@ -1,13 +1,13 @@
 {
-  "name": "button-clicker",
+  "name": "multiplayer-game",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "just a simple multiplayer game created with node.js, js and socket.io",
+  "main": "server.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Table Tennis Coder",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
