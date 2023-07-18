@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#canvas1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: black;
+    width: 800;
+    height: 600;
+}
+
+#startScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    background: skyblue;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#container * {
+    width: 100%;
+    padding: 5px;
+}
+
+/* Remove default styles */
+input[type="color"] {
+  border: none;
+  outline: none;
+  padding: 0;
+}
+
+/* Set the selected color as the background */
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+  
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 0;
+}
+
+.hidden {
+    display: none !important;
+}
